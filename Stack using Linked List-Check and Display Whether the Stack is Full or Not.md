@@ -35,10 +35,10 @@ To write a Python program that:
   stack.put('a')
   stack.put('b')
   stack.put('c')
-  ifstack.full():
-  print("Stack isfull")
+  if stack.full():
+      print("Stack isfull")
   else:
-  print("Stack is not full")
+      print("Stack is not full")
 ~~~
 
 ## Sample Input & Output
