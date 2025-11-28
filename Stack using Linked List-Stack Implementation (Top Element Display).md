@@ -23,17 +23,20 @@ The program allows inserting 3 elements from the user and then prints the **top 
 
 ## 💻 Program
 ~~~
-stack = [] 
-stack.append('a') 
-stack.append('b') 
-stack.append('c') 
-print ('Initial stack: ' + str(stack))
-for i in range(len(stack)): 
-    print(i,stack[i])
+stack = []  
+for i in range(3):
+    element = input(f"Enter element {i+1}: ")
+    stack.append(element)
+
+if len(stack) > 0:
+    print("Stack:", stack)
+    print("Top element:", stack[-1])
+else:
+    print("Stack is empty")
 ~~~
 
 ## Output
-<img width="546" height="177" alt="image" src="https://github.com/user-attachments/assets/9f937411-a856-45ca-bce1-09580f81b31b" />
+<img width="395" height="252" alt="image" src="https://github.com/user-attachments/assets/0481a283-8b16-4baf-84ce-3e7f02e99b85" />
 
 ## Result
 Thus, the program has been execueted successfully.
